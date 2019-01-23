@@ -1,5 +1,5 @@
 # Inherit AICP common Phone stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 $(call inherit-product, device/sony/amami/full_amami.mk)
 
@@ -10,11 +10,11 @@ BUILD_FINGERPRINT := Sony/D5503/D5503:5.1.1/14.6.A.1.236/2031203603:user/release
 
 # TARGET_GAPPS_ARCH := arm
 # TARGET_DENSITY := xhdpi
-TARGET_BOOT_ANIMATION_RES := 720
+# TARGET_BOOT_ANIMATION_RES := 720
 
 # PRODUCT_GMS_CLIENTID_BASE := android-sony
 
-PRODUCT_NAME := aosp_amami
+PRODUCT_NAME := rr_amami
 PRODUCT_DEVICE := amami
 
 # AICP Device Maintainer
