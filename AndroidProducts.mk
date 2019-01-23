@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_amami.mk
+    $(LOCAL_DIR)/rr_amami.mk
